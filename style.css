@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@200&family=Source+Sans+Pro&display=swap");
+
+body {
+  background-color: #f5dddd;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: grey;
+}
+.avatar {
+  border-radius: 26px;
+  width: 200px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  font-style: italic;
+  margin: 3px;
+  color: #474747;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+.container {
+  margin-left: 200px;
+  margin-top: 50px;
+  max-width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: grey;
+  margin-bottom: 5px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  background: rgb(164, 248, 213);
+  border-radius: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* .social {
+  background: lightblue;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+
+  border: 2px solid green;
+  border-radius: 20px;
+
+  margin: 5px;
+} */
+
+/* .box-model div {
+  float: left;
+  background: #000000;
+  height: 200px;
+  border: 4px solid green;
+  width: 25%;
+  box-sizing: border-box;
+} */
